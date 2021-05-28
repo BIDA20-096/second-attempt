@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Monaco</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="clear"> 
+    <!-- ################################################################################################ -->
+   
+    
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">Monaco</a></h1>
+    </div>
+    <!-- ################################################################################################ -->
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li class=""><a href="index.html">Home</a></li>
+        <li><a  href="about.html">About</a>
+        <li><a href="events.html">Events</a></li>
+		<li><a href="tourism.html">Tourism</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+
+
+												<script>  
+function validateemail()  
+{  
+var x=document.myform.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+}  
+</script>
+					<header>
+						<h2>Contact Us</h2>
+						<p>Tell us what you think about our little operation.</p>
+					</header>
+					<div class="box">
+						<form method="post"  action="thankyou.html" onsubmit="return validateemail();">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="fname" value="" placeholder="First Name" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="lname" value="" placeholder="Last Name" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="country" value="" placeholder="Country" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="region" value="" placeholder="Region" required/>
+								</div>
+								<div class="col-12">
+									<input type="email" name="email" id="email" value="" placeholder="Email" required/>
+								</div>
+
+								<div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                    <label class="form-check-label" for="flexCheckDefault"> Subscribe for weekly newsletter </label>
+                                </div>
+								
+								<div class="col-12">
+									<ul class="actions special">
+										<li><input type="submit" value="Send Message"/></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+				<div class="wrapper row5">
+  <footer id="footer" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_half first">
+      <h6 class="title">Contact Us</h6>
+      <p class="nospace btmspace-30">Come to our office if you want to know more about Monaco</p>
+      <ul class="nospace">
+        <li class="btmspace-10">
+          <address>
+          <span class="fa fa-map-marker"></span> Street Name &amp; BAC Head Office, Fairground 
+          </address>
+        </li>
+        <li class="btmspace-10"><span class="fa fa-phone"></span> +267 76446464</li>
+        
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Quick Links</h6>
+      <ul class="nospace linklist">
+	  <li><a href="index.html">Home</a></li>
+        <li><a  href="about.html">About</a>
+        <li><a href="events.html">Events</a></li>
+		<li><a href="tourism.html">Tourism</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Weekly newsletter</h6>
+      <form class="btmspace-50" method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row6">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved <a href="#"></a></p>
+    <p class="fl_right">Template by <a target="_blank" href="#" title="Free Website Templates">Kevin Basupi</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script> 
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
